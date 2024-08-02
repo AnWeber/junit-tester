@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="httpyac" tests="6" errors="0" disabled="1" failures="1" time="5.963">
+  <testsuite name="GET /json (line: 2)" tests="1" errors="0" failures="0" skipped="0" package="test.http" time="1.840">
+    <properties>
+      <property name="timestamp" value="2024-08-02T13:00:38.269Z"/>
+      <property name="file" value="test.http"/>
+    </properties>
+    <testcase name="status == 200" classname="GET /json (line: 2)" time="1.840" assertions="1"/>
+  </testsuite>
+  <testsuite name="GET /json (line: 9)" tests="1" errors="0" failures="0" skipped="0" package="test.http" time="2.099">
+    <properties>
+      <property name="line" value="8"/>
+      <property name="timestamp" value="2024-08-02T13:00:40.109Z"/>
+      <property name="file" value="test.http"/>
+    </properties>
+    <testcase name="status == 200" classname="GET /json (line: 9)" time="2.099" assertions="1"/>
+  </testsuite>
+  <testsuite name="GET /json (line: 15)" tests="1" errors="0" failures="1" skipped="0" package="test.http" time="0.129">
+    <properties>
+      <property name="line" value="14"/>
+      <property name="timestamp" value="2024-08-02T13:00:42.208Z"/>
+      <property name="file" value="test.http"/>
+    </properties>
+    <testcase name="status == 201" classname="GET /json (line: 15)" time="0.129" assertions="1">
+      <properties>
+        <property name="displayMessage" value="AssertionError [ERR_ASSERTION]: status (200) == 201 - /home/andreas/github/httpyac/httpyac/dist/index.js:3486:34"/>
+        <property name="file" value="/home/andreas/github/httpyac/httpyac/dist/index.js"/>
+        <property name="line" value="3486"/>
+        <property name="offset" value="34"/>
+        <property name="errorType" value="AssertionError [ERR_ASSERTION]"/>
+        <property name="message" value="status (200) == 201"/>
+      </properties>
+      <failure message="status == 201" type="AssertionError [ERR_ASSERTION]">{"message":"status (200) == 201","name":"AssertionError","stack":"AssertionError [ERR_ASSERTION]: status (200) == 201\n    at /home/andreas/github/httpyac/httpyac/dist/index.js:3486:34\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async test (/home/andreas/github/httpyac/httpyac/dist/index.js:2926:9)\n    at async Object.action (/home/andreas/github/httpyac/httpyac/dist/index.js:3479:11)\n    at async n.trigger (/home/andreas/github/httpyac/httpyac/node_modules/hookpoint/dist/index.js:1:2872)\n    at async onResponse (/home/andreas/github/httpyac/httpyac/dist/index.js:1781:7)\n    at async Object.action (/home/andreas/github/httpyac/httpyac/dist/index.js:1672:16)\n    at async n.trigger (/home/andreas/github/httpyac/httpyac/node_modules/hookpoint/dist/index.js:1:2872)\n    at async _HttpRegion.execute (/home/andreas/github/httpyac/httpyac/dist/index.js:3891:22)\n    at async sendHttpRegions (/home/andreas/github/httpyac/httpyac/dist/index.js:12665:7)"}</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="GET /json (line: 23)" tests="1" errors="0" failures="0" skipped="0" package="test.http" time="1.315">
+    <properties>
+      <property name="line" value="22"/>
+      <property name="timestamp" value="2024-08-02T13:00:42.337Z"/>
+      <property name="file" value="test.http"/>
+    </properties>
+    <testcase name="status == 200" classname="GET /json (line: 23)" time="1.315" assertions="1"/>
+  </testsuite>
+  <testsuite name="GET /json (line: 30)" tests="1" errors="0" failures="0" skipped="1" package="test.http" time="0.000">
+    <properties>
+      <property name="line" value="27"/>
+      <property name="timestamp" value="2024-08-02T13:00:43.652Z"/>
+      <property name="file" value="test.http"/>
+    </properties>
+    <testcase name="request is skipped" classname="GET /json (line: 30)" time="0.000" assertions="1">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="GET /json (line: 34)" tests="1" errors="0" failures="0" skipped="0" package="test.http" time="0.578">
+    <properties>
+      <property name="line" value="33"/>
+      <property name="timestamp" value="2024-08-02T13:00:43.653Z"/>
+      <property name="file" value="test.http"/>
+    </properties>
+    <testcase name="status == 200" classname="GET /json (line: 34)" time="0.578" assertions="1"/>
+  </testsuite>
+  <testsuite name="GET /json (line: 45)" tests="0" errors="0" failures="0" skipped="0" package="test.http" time="0.002">
+    <properties>
+      <property name="line" value="39"/>
+      <property name="timestamp" value="2024-08-02T13:00:44.231Z"/>
+      <property name="file" value="test.http"/>
+    </properties>
+  </testsuite>
+</testsuites>
