@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+permissions:
+  checks: write
 
 jobs:
   build:
